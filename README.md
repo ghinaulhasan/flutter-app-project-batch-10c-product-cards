@@ -1,36 +1,53 @@
-<div align="center">
+# Flutter Product Shop App
 
-# Flutter Product Cards App
-### A Flutter learning project featuring product card UI
+A beginner-friendly Flutter and Dart shopping UI project created as part of **Aptech Batch 10C**. The app presents a catalogue of sample products with product cards and a simple cart interaction.
 
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white) ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white) ![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
+![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20Flutter-0b1f3a?style=flat-square)
 
-</div>
+## Project highlights
 
-## Overview
-A Flutter application project created as part of Batch 10C, focused on building and presenting product cards in a mobile app interface.
+- Product catalogue built with Flutter widgets
+- Sample products with names, prices, and image URLs
+- Product cards with an **Add to Cart** interaction
+- Material 3 theme and seeded color scheme
+- Simple single-screen structure suitable for learning Flutter fundamentals
 
-## Technology Stack
+## Tech stack
+
 - Flutter
 - Dart
-- Android development toolchain
+- Material UI package (as declared by the project)
 
-## Getting Started
-1. Install Flutter SDK and Android Studio / Android SDK.
-2. Clone this repository.
-3. Run `flutter pub get`.
-4. Start an Android emulator or connect a device.
-5. Run `flutter run`.
+## Run locally
 
-## Useful Commands
-```bash
-flutter doctor
-flutter pub get
-flutter run
-```
+1. Install the Flutter SDK and configure an Android device or emulator.
+2. Clone this repository:
+   ```bash
+   git clone https://github.com/ghinaulhasan/flutter-app-project-batch-10c-product-cards.git
+   cd flutter-app-project-batch-10c-product-cards
+   ```
+3. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
+4. Check your environment and launch:
+   ```bash
+   flutter doctor
+   flutter run
+   ```
 
-## Repository
-[flutter-app-project-batch-10c-product-cards](https://github.com/ghinaulhasan/flutter-app-project-batch-10c-product-cards)
+## Project structure
 
----
-<div align="center">**Syed Ghina Ul Hassan** · Flutter & Dart</div>
+- `lib/main.dart` — application entry point, sample product data, and shop screen
+- `android/`, `ios/`, `web/`, `windows/`, `macos/`, `linux/` — Flutter platform folders
+- `test/` — test folder
+
+## Learning goals
+
+This project is a practical exercise in Flutter app structure, Dart classes, reusable widgets, product-card layouts, and basic UI interactions.
+
+## Author
+
+**Syed Ghina Ul Hassan** · [GitHub](https://github.com/ghinaulhasan)
