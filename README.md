@@ -1,17 +1,36 @@
-# my_first_app
+<div align="center">
 
-A new Flutter project.
+# Flutter Product Cards App
+### A Flutter learning project featuring product card UI
+
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white) ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white) ![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+
+</div>
+
+## Overview
+A Flutter application project created as part of Batch 10C, focused on building and presenting product cards in a mobile app interface.
+
+## Technology Stack
+- Flutter
+- Dart
+- Android development toolchain
 
 ## Getting Started
+1. Install Flutter SDK and Android Studio / Android SDK.
+2. Clone this repository.
+3. Run `flutter pub get`.
+4. Start an Android emulator or connect a device.
+5. Run `flutter run`.
 
-This project is a starting point for a Flutter application.
+## Useful Commands
+```bash
+flutter doctor
+flutter pub get
+flutter run
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Repository
+[flutter-app-project-batch-10c-product-cards](https://github.com/ghinaulhasan/flutter-app-project-batch-10c-product-cards)
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+<div align="center">**Syed Ghina Ul Hassan** · Flutter & Dart</div>
